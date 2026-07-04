@@ -16,6 +16,8 @@ jobs:
     name: Build and Deploy Job
     steps:
       - uses: actions/checkout@v3
+        env:
+          https://bookstore-backend1-cscnhnh5gtaxcccq.eastasia-01.azurewebsites.net/api
         with:
           submodules: true
           lfs: false
