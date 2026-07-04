@@ -16,7 +16,7 @@ jobs:
     name: Build and Deploy Job
     steps:
       - uses: actions/checkout@v3
-       env:
+        env:
           VITE_API_URL: ${{ vars.VITE_API_URL }}
         with:
           submodules: true
